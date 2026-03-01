@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "RjB5Te/rgEg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Documents\\Сетевое программирование\\Exam\\Exam\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mailkit\\4.15.0\\mailkit.4.15.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mimekit\\4.15.0\\mimekit.4.15.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
