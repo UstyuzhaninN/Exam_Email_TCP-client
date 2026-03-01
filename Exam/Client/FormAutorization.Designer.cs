@@ -92,6 +92,7 @@
             button1_Enter.TabIndex = 4;
             button1_Enter.Text = "Вход";
             button1_Enter.UseVisualStyleBackColor = true;
+            button1_Enter.Click += button1_Enter_Click;
             // 
             // textBox2_password
             // 

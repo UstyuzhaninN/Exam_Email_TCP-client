@@ -14,5 +14,10 @@ namespace Client
             formRegistration.ShowDialog();
             this.Show();
         }
+
+        private void button1_Enter_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

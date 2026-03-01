@@ -272,11 +272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\Сетевое программирование\\Exam\\Exam\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Сетевое программирование\\Exam\\Exam_Email_TCP-client\\Exam\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Users\\user\\Documents\\Сетевое программирование\\Exam\\Exam\\Client\\Client.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\Сетевое программирование\\Exam\\Exam_Email_TCP-client\\Exam\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\Сетевое программирование\\Exam\\Exam\\Client\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Сетевое программирование\\Exam\\Exam_Email_TCP-client\\Exam\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
