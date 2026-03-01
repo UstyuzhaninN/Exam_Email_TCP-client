@@ -119,16 +119,5 @@ namespace Client
 
     }
 
-    public class User
-    {
-        public string Login { get; set; }
-        public string Hash { get; set; }
-        public string Email { get; set; }
-        public User(string login, string hash, string email)
-        {
-            Login = login;
-            Hash = hash;
-            Email = email;
-        }
-    }
+    
 }
