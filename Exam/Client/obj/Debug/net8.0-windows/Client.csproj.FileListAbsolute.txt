@@ -48,3 +48,4 @@ C:\Users\user\Documents\Сетевое программирование\Exam\Exa
 C:\Users\user\Documents\Сетевое программирование\Exam\Exam_Email_TCP-client\Exam\Client\obj\Debug\net8.0-windows\Client.genruntimeconfig.cache
 C:\Users\user\Documents\Сетевое программирование\Exam\Exam_Email_TCP-client\Exam\Client\obj\Debug\net8.0-windows\ref\Client.dll
 C:\Users\user\Documents\Сетевое программирование\Exam\Exam_Email_TCP-client\Exam\Client\obj\Debug\net8.0-windows\Client.FormChatWithCpu.resources
+C:\Users\user\Documents\Сетевое программирование\Exam\Exam_Email_TCP-client\Exam\Client\obj\Debug\net8.0-windows\Client.Server.resources

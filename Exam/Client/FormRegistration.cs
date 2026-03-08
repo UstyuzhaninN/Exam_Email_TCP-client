@@ -37,9 +37,9 @@ namespace Client
         public FormRegistration()
         {
             InitializeComponent();
-            textBox1_login.Text = "supernikich";
+            textBox1_login.Text = "User";
             textBox1_password.Text = "Password";
-            textBox2_Mail.Text = "supernikich@yandex.ru";
+            
 
         }
 
