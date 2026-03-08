@@ -12,6 +12,8 @@ namespace Client
         public FormAutorization()
         {
             InitializeComponent();
+            textBox1_login.Text = "supernikich";
+            textBox2_password.Text = "Password";
         }
 
         private void button1_Регистрация_Click(object sender, EventArgs e)
@@ -37,15 +39,20 @@ namespace Client
 
             foreach(var user in users)
             {
-                if (user.Login == textBox1_login.Text && HashPassword( textBox2_password.Text) == user.Hash)
+                if (user.Login != textBox1_login.Text || HashPassword( textBox2_password.Text) != user.Hash)
                 {
-                    MessageBox.Show("Успешная авторизация!");
+                    MessageBox.Show("Пользователь с такими данными не найден");
                     return;
                 }
+                MessageBox.Show("Авторизация успешна!");
+                FormChatWithCpu formChatWithCpu = new FormChatWithCpu();
+                this.Hide();
+                formChatWithCpu.ShowDialog();
+                this.Close();
+
 
             }
-            MessageBox.Show("Пользователь с такими данными не найден");
-            return;
+
 
         }
 

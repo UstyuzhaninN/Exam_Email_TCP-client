@@ -4,6 +4,9 @@
     <Compile Update="FormAutorization.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormChatWithCpu.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Update="FormRegistration.cs">
