@@ -31,6 +31,7 @@ namespace Client
         string mailServerLogin = "levkin.nik2025@gmail.com";
         string mailServerPassword = "tsvvzuzmmwkiqnms";
         string regCode = "";
+        bool threeMinuteTimer = false;
 
         string path_to_file = "users.json";
         public FormRegistration()
@@ -44,7 +45,7 @@ namespace Client
 
         private async void button1_send_Click(object sender, EventArgs e)
         {
-            if (!containsDogCheck(textBox2_Mail.Text) || countsSixSymbols(textBox1_password.Text))
+            if (!containsDogCheck(textBox2_Mail.Text) || !countsSixSymbols(textBox1_password.Text))
                 return;
 
             //создаем сообщение
@@ -57,7 +58,7 @@ namespace Client
             msg.Subject = "Регистрация";
             //само сообщение 
             Random randomCodeForMailSending = new Random();
-            regCode = randomCodeForMailSending.Next(1000, 9999).ToString();
+            regCode = randomCodeForMailSending.Next(100000, 999999).ToString();
             var builder = new BodyBuilder
             {
                 TextBody = $"{regCode}"
@@ -73,14 +74,19 @@ namespace Client
             await client.AuthenticateAsync(mailServerLogin, mailServerPassword);
 
             //если аутентификация прошла успешно, то можно отправлять сообщение
-
-            await client.SendAsync(msg);
+            try
+            {
+                await client.SendAsync(msg);
+                MessageBox.Show("Письмо отправлено. Проверьте почту.\nПоспешите, через минуту код превратится в тыкву");
+            } catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
             //и можно отключаться
             await client.DisconnectAsync(true);
-            //true - выход из учетной записи. если falsr, то просто отключится
+            //true - выход из учетной записи. если falsе, то просто отключится
 
             //если все ок, то в статус бар выводим сообщение об успешности
-
+            _=threeMinutesPassed();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -90,6 +96,12 @@ namespace Client
                 if (textBox3_code.Text != regCode)
                 {
                     MessageBox.Show("Высланный код отличается от введенного");
+                    return;
+                }
+
+                if(threeMinuteTimer)
+                {
+                    MessageBox.Show("Введенный код недействителен");
                     return;
                 }
 
@@ -105,7 +117,7 @@ namespace Client
                 var options = new JsonSerializerOptions { WriteIndented = true };
                 File.WriteAllText(path_to_file, JsonSerializer.Serialize(users, options));
                 MessageBox.Show("Пользователь добавлен");
-
+                this.Close();
             }
             catch (Exception ex)
             {
@@ -134,6 +146,11 @@ namespace Client
             return false;
         }
 
+        internal async Task threeMinutesPassed()
+        {
+            await Task.Delay(180 * 1000); // через три минуты срок жизни кода истечет
+            threeMinuteTimer = true;
+        }
     }
 
     
