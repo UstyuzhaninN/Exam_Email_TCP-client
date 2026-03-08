@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|c:\\users\\user\\documents\\\u0441\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\exam\\exam_email_tcp-client\\exam\\client\\formautorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|solutionrelative:client\\formautorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\client\\formautorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|solutionrelative:client\\formautorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|c:\\users\\user\\documents\\\u0441\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\exam\\exam_email_tcp-client\\exam\\client\\formregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|solutionrelative:client\\formregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\client\\formregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|solutionrelative:client\\formregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|c:\\users\\user\\documents\\\u0441\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\exam\\exam_email_tcp-client\\exam\\client\\formautorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|solutionrelative:client\\formautorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\client\\formautorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|solutionrelative:client\\formautorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD161A14-0F1B-4E95-9936-D3A6D090D43B}|Client\\Client.csproj|c:\\users\\user\\documents\\\u0441\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\exam\\exam_email_tcp-client\\exam\\client\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -42,38 +42,37 @@
               "RelativeToolTip": "Client\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T13:35:33.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T13:35:33.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FormRegistration.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\Client\\FormRegistration.cs",
               "RelativeDocumentMoniker": "Client\\FormRegistration.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\Client\\FormRegistration.cs",
               "RelativeToolTip": "Client\\FormRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T13:18:49.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FormAutorization.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\Client\\FormAutorization.cs",
               "RelativeDocumentMoniker": "Client\\FormAutorization.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\Client\\FormAutorization.cs",
               "RelativeToolTip": "Client\\FormAutorization.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA6wC4AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T13:10:50.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FormAutorization.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\Client\\FormAutorization.cs",
               "RelativeDocumentMoniker": "Client\\FormAutorization.cs",
@@ -85,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FormRegistration.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\\u0421\u0435\u0442\u0435\u0432\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Exam\\Exam_Email_TCP-client\\Exam\\Client\\FormRegistration.cs",
               "RelativeDocumentMoniker": "Client\\FormRegistration.cs",

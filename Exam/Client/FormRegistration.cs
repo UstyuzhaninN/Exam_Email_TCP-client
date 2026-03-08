@@ -44,6 +44,9 @@ namespace Client
 
         private async void button1_send_Click(object sender, EventArgs e)
         {
+            if (!containsDogCheck(textBox2_Mail.Text) || countsSixSymbols(textBox1_password.Text))
+                return;
+
             //создаем сообщение
             MimeMessage msg = new MimeMessage();
             //от кого
@@ -116,6 +119,20 @@ namespace Client
             return Convert.ToHexString(sha.ComputeHash(Encoding.UTF8.GetBytes(passWord)));
         }
 
+        internal bool containsDogCheck(string mail)
+        {
+            if(mail.Contains('@')) return true;
+            MessageBox.Show("Ошибка формата почты");
+            return false;
+        }
+
+        internal bool countsSixSymbols(string password)
+        {
+            if (password.Length > 6) return true;
+            MessageBox.Show("Пароль должен быть длиннее 6 символов");
+
+            return false;
+        }
 
     }
 

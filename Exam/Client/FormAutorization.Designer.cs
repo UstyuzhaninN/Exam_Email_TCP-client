@@ -100,10 +100,9 @@
             textBox2_password.Dock = DockStyle.Fill;
             textBox2_password.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 204);
             textBox2_password.Location = new Point(136, 178);
-            textBox2_password.Multiline = true;
             textBox2_password.Name = "textBox2_password";
             textBox2_password.PlaceholderText = "Пароль";
-            textBox2_password.Size = new Size(526, 44);
+            textBox2_password.Size = new Size(526, 33);
             textBox2_password.TabIndex = 2;
             // 
             // label1
@@ -124,10 +123,9 @@
             textBox1_login.Dock = DockStyle.Fill;
             textBox1_login.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 204);
             textBox1_login.Location = new Point(136, 103);
-            textBox1_login.Multiline = true;
             textBox1_login.Name = "textBox1_login";
             textBox1_login.PlaceholderText = "Логин";
-            textBox1_login.Size = new Size(526, 44);
+            textBox1_login.Size = new Size(526, 33);
             textBox1_login.TabIndex = 1;
             // 
             // button1_forgotPassword
